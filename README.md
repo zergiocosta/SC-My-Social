@@ -2,6 +2,8 @@
 
 ### A simple WordPress plugin to connect your website to your social media
 
+##### *Still need some CSS improvements*
+
 #### Installation
  1. Upload the folder `sc-my-social` to `wp-content/plugins/`
  directory
