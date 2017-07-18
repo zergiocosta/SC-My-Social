@@ -18,7 +18,7 @@
 	display: inline-block;
 	text-decoration: inherit;
 	width: 1em;
-	margin-right: .3em;
+	margin-right: .4em;
 	text-align: center;
 	font-variant: normal;
 	text-transform: none;
@@ -32,7 +32,7 @@
 .sc-my-social-list ul { margin: 0; position: relative; right: 0; }
 .sc-my-social-list li { display: inline-block; }
 .sc-my-social-list a { color: #fff; }
-.sc-my-social-list i { padding: 3px; border-radius: 5px; }
+.sc-my-social-list i { padding: 3px; }
 
 .icon-sc-facebook:before { content: '\f09a'; }
 .icon-sc-twitter:before { content: '\f099'; }
