@@ -15,7 +15,7 @@ function sc_my_social_create_menu() {
 function register_sc_my_social_settings() {
     //register our settings
     register_setting( 'sc-my-social-settings-group', 'sc_facebook' );
-    register_setting( 'sc-my-social-settings-group', 'sc_twiter' );
+    register_setting( 'sc-my-social-settings-group', 'sc_twitter' );
     register_setting( 'sc-my-social-settings-group', 'sc_github' );
     register_setting( 'sc-my-social-settings-group', 'sc_instagram' );
     register_setting( 'sc-my-social-settings-group', 'sc_pinterest' );

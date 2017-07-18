@@ -28,6 +28,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.sc-my-social-page label i { color: #fff; border-radius: 3px; padding: 3px; }
 
 .icon-sc-fivehundredpx:before { content: '\e800'; }
 .icon-sc-twitter:before { content: '\f099'; }
@@ -42,3 +43,17 @@
 .icon-sc-vimeo:before { content: '\f27d'; }
 .icon-sc-blogger:before { content: '\f314'; }
 .icon-sc-linkedin:before { content: '\f31a'; }
+
+.icon-sc-facebook { background-color: #3b5998; }
+.icon-sc-twitter { background-color: #1da1f2; }
+.icon-sc-github-circled { background-color: #24292e; }
+.icon-sc-instagram { background-color: #47759a; }
+.icon-sc-pinterest { background-color: #bd081c; }
+.icon-sc-tumblr { background-color: #36465d; }
+.icon-sc-linkedin { background-color: #0077b5; }
+.icon-sc-youtube-play { background-color: #e62117; }
+.icon-sc-vimeo { background-color: #00adef; }
+.icon-sc-gplus { background-color: #db4437; }
+.icon-sc-fivehundredpx { background-color: #373737; }
+.icon-sc-wordpress { background-color: #19a1d0; }
+.icon-sc-blogger { background-color: #f18634; }

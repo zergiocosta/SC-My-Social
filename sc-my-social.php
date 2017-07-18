@@ -12,12 +12,12 @@
 
 require_once 'functions/options.php';
 
-//add_action( 'wp_enqueue_scripts', 'scmysocial_files' );
-//function scmysocial_files(){
-//    wp_enqueue_script( 'sc-my-social', plugins_url( 'assets/js/sc-my-social.js', __FILE__ ), array( 'jquery' ), null, true );
-//    wp_enqueue_style( 'sc-my-social', plugins_url( 'assets/css/sc-my-social.css', __FILE__ ), array(), null, 'all' );
-//    wp_enqueue_style('sc_fontello', plugins_url('assets/css/sc-fontello.css',__FILE__), array(), null, 'all' );
-//}
+add_action( 'wp_enqueue_scripts', 'scmysocial_files' );
+function scmysocial_files(){
+    wp_enqueue_script( 'sc-my-social', plugins_url( 'assets/js/sc-my-social.js', __FILE__ ), array( 'jquery' ), null, true );
+    wp_enqueue_style( 'sc-my-social', plugins_url( 'assets/css/sc-my-social.css', __FILE__ ), array(), null, 'all' );
+    wp_enqueue_style('sc_fontello', plugins_url('assets/css/sc-fontello.css',__FILE__), array(), null, 'all' );
+}
 
 
 add_action( 'admin_enqueue_scripts', 'sc_my_enqueue' );
@@ -38,5 +38,6 @@ function sc_my_enqueue($hook) {
     wp_enqueue_script('sc_my_social_script');
 }
 
+require_once 'functions/sc-my-social-output.php';
 
 ?>
