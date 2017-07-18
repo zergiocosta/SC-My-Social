@@ -5,13 +5,11 @@
 > ##### :rocket: *Still need some improvements (wait for it =D)*
 
 #### Installation
- 1. Upload the folder `sc-my-social` to `wp-content/plugins/`
+ > 1. Upload the folder `sc-my-social` to `wp-content/plugins/`
  directory
- 2. Activate the plugin through the WordPress admin
- 3. Set your social media links
- 4. Enjoy
-
-
+ > 2. Activate the plugin through the WordPress admin
+ > 3. Set your social media links
+ > 4. Enjoy
 
 This plugin uses [Fontello](http://fontello.com/)
 
