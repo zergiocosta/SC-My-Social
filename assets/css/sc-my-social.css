@@ -32,6 +32,7 @@
 .sc-my-social-list ul { margin: 0; position: relative; right: 0; }
 .sc-my-social-list li { display: inline-block; }
 .sc-my-social-list a { color: #fff; }
+.sc-my-social-list a:hover { color: #ccc; }
 .sc-my-social-list i { padding: 3px; }
 
 .icon-sc-facebook:before { content: '\f09a'; }
